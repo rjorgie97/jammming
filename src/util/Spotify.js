@@ -1,3 +1,4 @@
+import React from 'react';
 let accessToken;
 const clientID = 'b9a479ba93154683a0aacc32de16543f';
 const redirectURI = 'http://rj-jammming.surge.sh';
@@ -22,6 +23,7 @@ const Spotify = {
         };
         
     },
+
 
     search(term) {
         const accessToken = Spotify.getAccessToken();
